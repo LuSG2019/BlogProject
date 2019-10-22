@@ -9,13 +9,14 @@
 {
     @Html.LabelFor(u => u.Title)
     @Html.TextBoxFor(u => u.Title)
-
+    <br />
     @Html.LabelFor(u => u.BlogBody)
-    @Html.TextBoxFor(u => u.BlogBody)
+    @Html.TextAreaFor(u => u.BlogBody, new {@class = "form-control", @id="BlogBody"} )
 
     <p>
         <button type="submit">
             Post
         </button>
     </p>
+
 }

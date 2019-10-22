@@ -25,14 +25,17 @@ namespace BlogProject.Controllers
                 using (ApplicationDbContext db = new ApplicationDbContext())
                 {
                     var post = db.Blogs.Create();
-                    post.UserId.Id = User.Identity.GetUserId();
+                    //post.UserId.Id = User.Identity.GetUserId();
                     post.Title = blog.Title;
                     post.PostDate = DateTime.Today;
                     post.BlogBody = blog.BlogBody;
+
+                    db.Blogs.Add(post);
+                    db.SaveChanges();
                 }
             }
 
-            return RedirectToAction("Home", "Index");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

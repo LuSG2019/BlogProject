@@ -1,4 +1,5 @@
 ﻿using BlogProject.Models;
+using BlogProject.Models.Data;
 using BlogProject.Models.EF;
 using System;
 using System.Collections.Generic;
@@ -12,8 +13,9 @@ namespace BlogProject.Controllers
     {
         public ActionResult Index()
         {
-            
-            return View();
+            BlogRepo repo = new BlogRepo();
+            List<Blog> blogs = repo.GetAll();
+            return View(blogs);
         }
 
         public ActionResult About()
@@ -31,5 +33,6 @@ namespace BlogProject.Controllers
         }
 
         
+
     }
 }
