@@ -1,0 +1,21 @@
+﻿@model BlogProject.Models.EF.Blog
+
+@{
+    ViewBag.Title = "CreatePost";
+}
+
+<h2>Create Post</h2>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(u => u.Title)
+    @Html.TextBoxFor(u => u.Title)
+
+    @Html.LabelFor(u => u.BlogBody)
+    @Html.TextBoxFor(u => u.BlogBody)
+
+    <p>
+        <button type="submit">
+            Post
+        </button>
+    </p>
+}
