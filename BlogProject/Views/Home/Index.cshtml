@@ -1,12 +1,29 @@
-﻿@{
+﻿@model List<BlogProject.Models.EF.Blog>
+@{
     ViewBag.Title = "Home Page";
 }
 
 <div class="container">
     <h1>Blogs-R-Us</h1>
 
-    <div class = "container" id="blogContainer">
+    <div class="container" id="blogContainer">
+        @using (Html.BeginForm())
+        {
+            foreach (var b in Model)
+            {
+
+                <h1>
+
+                    @b.Title
+                </h1>
+                <br />
+                <p>
+                    @Html.Raw(b.BlogBody)
+                </p>
+                <hr />
+                <br />
+            }
+        }
 
     </div>
-
 </div>

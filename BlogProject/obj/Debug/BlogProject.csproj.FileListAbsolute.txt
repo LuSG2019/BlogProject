@@ -1,7 +1,3 @@
-C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.Migrations.init.resources
-C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.Migrations.addUserKey.resources
-C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csproj.GenerateResource.cache
-C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csproj.CoreCompileInputs.cache
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\BlogProject.dll.config
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\BlogProject.dll
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\BlogProject.pdb
@@ -108,8 +104,12 @@ C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\Microsoft.
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csprojAssemblyReference.cache
+C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.Migrations.init.resources
+C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.Migrations.addUserKey.resources
+C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.Migrations.BlogIdentity.resources
+C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csproj.GenerateResource.cache
+C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csproj.CoreCompileInputs.cache
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csproj.CopyComplete
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.dll
 C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.pdb
-C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.Migrations.BlogIdentity.resources
-C:\Users\hozho\Desktop\Blog Group Project\BlogProject\BlogProject\obj\Debug\BlogProject.csprojAssemblyReference.cache
