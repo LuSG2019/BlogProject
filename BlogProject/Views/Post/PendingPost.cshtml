@@ -1,15 +1,14 @@
 ﻿@model List<BlogProject.Models.EF.Blog>
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "PendingPost";
 }
 
 <div class="container">
-    <h1>Blogs-R-Us</h1>
+    <h1>Pending</h1>
 
     <div class="container" id="blogContainer">
         @using (Html.BeginForm())
         {
-            @User.Identity.Name
             foreach (var b in Model)
             {
 
@@ -23,7 +22,7 @@
                 </p>
                 <hr />
                 <br />
-
+                <button type="submit" class="btn btn-primary">Approve</button>
             }
         }
 

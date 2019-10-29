@@ -18,6 +18,6 @@ namespace BlogProject.Models.EF
         [UIHint("tinymce_jquery_full")]
         public string BlogBody { get; set; }
         public ApplicationUser UserId { get; set; }
-        
+        public bool Pending { get; set; }
     }
 }

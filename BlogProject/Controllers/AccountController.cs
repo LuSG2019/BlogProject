@@ -133,12 +133,15 @@ namespace BlogProject.Controllers
                     return View(model);
             }
         }
-
+        ApplicationDbContext context = new ApplicationDbContext();
         //
         // GET: /Account/Register
         [AllowAnonymous]
         public ActionResult Register()
         {
+            
+            ViewBag.Name = new SelectList(context.Roles
+                                            .ToList(), "Name", "Name");
             return View();
         }
 
@@ -165,6 +168,8 @@ namespace BlogProject.Controllers
 
                     return RedirectToAction("Index", "Home");
                 }
+                ViewBag.Name = new SelectList(context.Roles
+                                            .ToList(), "Name", "Name");
                 AddErrors(result);
             }
 

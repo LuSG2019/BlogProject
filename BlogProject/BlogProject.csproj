@@ -201,6 +201,18 @@
     <Compile Include="Migrations\201910212016299_BlogIdentity.Designer.cs">
       <DependentUpon>201910212016299_BlogIdentity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201910291412020_pendingEnabled.cs" />
+    <Compile Include="Migrations\201910291412020_pendingEnabled.Designer.cs">
+      <DependentUpon>201910291412020_pendingEnabled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910291427041_makingRoles.cs" />
+    <Compile Include="Migrations\201910291427041_makingRoles.Designer.cs">
+      <DependentUpon>201910291427041_makingRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201910291440314_UserRoles.cs" />
+    <Compile Include="Migrations\201910291440314_UserRoles.Designer.cs">
+      <DependentUpon>201910291440314_UserRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Data\BlogRepo.cs" />
@@ -396,6 +408,7 @@
     <Content Include="Scripts\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
     <Content Include="Scripts\tinymce\skins\ui\oxide-dark\fonts\tinymce-mobile.woff" />
     <Content Include="Scripts\tinymce\langs\readme.md" />
+    <Content Include="Views\Post\PendingPost.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -422,6 +435,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201910212016299_BlogIdentity.resx">
       <DependentUpon>201910212016299_BlogIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910291412020_pendingEnabled.resx">
+      <DependentUpon>201910291412020_pendingEnabled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910291427041_makingRoles.resx">
+      <DependentUpon>201910291427041_makingRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201910291440314_UserRoles.resx">
+      <DependentUpon>201910291440314_UserRoles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

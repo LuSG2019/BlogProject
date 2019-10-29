@@ -14,7 +14,7 @@ namespace BlogProject.Controllers
         public ActionResult Index()
         {
             BlogRepo repo = new BlogRepo();
-            List<Blog> blogs = repo.GetAll();
+            List<Blog> blogs = repo.GetAll().Where(b => b.Pending == false).ToList();
             return View(blogs);
         }
 
